@@ -88,17 +88,23 @@ var finances = [
 ];
 
 /*The total number of months included in the dataset.*/
-console.log("The total number of months included in the record: " +finances.length);
+console.log("The total number of months included in the record gfor analysis: " +finances.length + " months");
 
 
 // The net total amount of Profit/Losses over the entire period.
+/*  What I want to do is pick every second number in the array and add them. or serch through the array
+and only pick numbers*/
 
+var income = finances.map(function(item) {
+  return item[1];
+});
+
+console.log(income);
+/* I now want to take these numbers and add them usinf for loop so that it adds all the numbers returned"*/
 var total=0;
 
 for(var i=0; i<finances.length; i++){
- 
-  total=total+finances[i]
-
+  
+  total=total+income[i];
 }
-
-console.log("The total amount of Profit/Loss is " + total);
+console.log("The net total amount of Profit/Losses over the entire period of: "+finances.length +" months is: " +total);
