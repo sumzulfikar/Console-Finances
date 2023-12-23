@@ -21,7 +21,7 @@ Learning:
 ## Table of Contents 
 
 - [Installation](#installation)
-- [Features] (#Features)
+- [Features](#Features)
 - [Credits](#credits)
 - [License](#license)
 
