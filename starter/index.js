@@ -87,24 +87,53 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
-/*The total number of months included in the dataset.*/
-console.log("The total number of months included in the record gfor analysis: " +finances.length + " months");
+/*In this section I want to calculate and display total number of months included in the dataset.*/
+
+console.log(" Financial Analysis" + "\n-----------------"
+  + "\nThe total number of months included in the record for analysis: " 
+  + finances.length + " months");
 
 
-// The net total amount of Profit/Losses over the entire period.
-/*  What I want to do is pick every second number in the array and add them. or serch through the array
-and only pick numbers*/
+/* In this section I want to calculate the net total amount of Profit/Losses over the entire period.
+What I want to do is search through every second number in the nested finances 
+array and only pick numbers and store in a seperate array called income.*/
 
-var income = finances.map(function(item) {
-  return item[1];
-});
 
-console.log(income);
-/* I now want to take these numbers and add them usinf for loop so that it adds all the numbers returned"*/
-var total=0;
+var income=finances.map((item => item[1]));
 
-for(var i=0; i<finances.length; i++){
-  
-  total=total+income[i];
+// console.log(income);
+
+/* I now want to take these Profit/loss numbers and add them using for loop so that it adds all the numbers
+ in the finances array. I will call this Revenue*/
+
+ var revenue=0;
+ for(var i=0; i<finances.length; i++){
+    revenue=revenue+income[i];
+
+ }
+
+
+ console.log("\nThe net total amount of Profit/Losses for "
+ + finances.length +" months is: $" +revenue);
+
+ /* In this section I want to calculate the average of the changes in Profit/Losses over the entire period.
+ To Do this I need to use the array for income and subtract 2nd element from 1st
+ element, 4th element from the 3rd element and so on, then do avarage after. This is to
+ ensure that I am subtracting between following months.*/
+
+// Note: Below I started value of j from 1 in the for loop because otherwise the for value or 0 index 
+// tries to go to index -1 which doesn'nt exist and throws NAN value*/
+
+var NetTotal=0;
+for(var j=1; j<income.length; j++){
+  var incomeDifference=income[j]-income[j-1];
+  //  console.log("Income difference each month $ " +parseInt(incomeDifference));
+    NetTotal=NetTotal+incomeDifference//NetTotal
+    var averageDifference=NetTotal/(income.length - 1);
 }
-console.log("The net total amount of Profit/Losses over the entire period of: "+finances.length +" months is: " +total);
+
+averageDifference=averageDifference.toFixed(2);
+
+console.log("\n Average change over the period: $"+ averageDifference);
+
+
