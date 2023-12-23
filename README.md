@@ -6,18 +6,22 @@ To analyze the financial records of a company.
 
 ## Description
 
+The purpose of this project was to to analyze the profit and loss data for a company and provide a comprehensive overview for the following:
 
+- Determining the period with the highest profit and the greatest loss.
+- Identifying the duration of this period.
+- Net profit of the duration.
+- Calculating the average difference in income over the entire period.
 
 Learning:
+- For each requirement, writing the pseudocode prior to coding was really helpful as it helped me think about what I needed to calculate, how to calculate and then write the code.
 
-- For each requirement writing the pseudocode in the comments was really helpful to think about what functions I needed to write in the code to enable the feature to function as per expectation.
-
-- There are so many functions avilable in javascript and there is so much to learn! Learning to being efficient with which method or function to use to execte the code was a challenge. I have really enjoyed it.
+- There are so many functions avilable in javascript and there is so much to learn! Learning to being efficient with which method or function to use to execute the code was challenging but at the same time fulfilling! 
 
 ## Table of Contents 
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Features] (#Features)
 - [Credits](#credits)
 - [License](#license)
 
@@ -26,14 +30,25 @@ Learning:
 Click this link to see the deployed link: https://sumzulfikar.github.io/Console-Finances/ 
 Right click Developer mode to see the console results.
 
-![alt text](./images/bootstrap-ss.PNG)
+![Application Screen Shot](./images/financeconsole.png)
+Console results:
+![Application Screen Shot](./images/consoleresults.PNG)
+
+## Features
+
+In the console you will be able to see the following:
+1. The total number of months included in the dataset.
+2. The net total amount of Profit/Losses over the entire period.
+3. The average of the changes in Profit/Losses over the entire period.
+4. The greatest increase in profits (date and difference in the amounts) over the entire period.
+5. The greatest decrease in losses (date and difference in the amounts) over the entire period.
+
 
 ## Credits
 
-Bootcamp Xpert and W3C was super helpful for this project.
-I am grateful for thehelp and support I received from from my TAs, and class mates.
-I googled various javascript youtube videos during this project.
-
+- Bootcamp Xpert and W3C was super helpful for this project.
+- I am grateful for the help and support I received from from my TAs, and class mates.
+- I googled various javascript youtube videos during this project which helped me think.
 
 ## License
 
@@ -44,24 +59,6 @@ MIT License
 ![badmath](https://github.com/sumzulfikar?tab=achievements)
 
 
-## Features
-
-In the console you will be able to see the following:
-
-1. The total number of months included in the dataset.
-
-2. The net total amount of Profit/Losses over the entire period.
-
-3. The average of the changes in Profit/Losses over the entire period.
-
-4. The greatest increase in profits (date and difference in the amounts) over the entire period.
-
-5. The greatest decrease in losses (date and difference in the amounts) over the entire period.
-
-## How to Contribute
-
-n/a
-
 ## Tests
 
-Acceptance Criteria met
+Acceptance Criteria met and comparing the expected results from starter Read me for the challenge.
