@@ -27,8 +27,10 @@ Learning:
 
 ## Installation
 
-Click this link to see the deployed link: https://sumzulfikar.github.io/Console-Finances/ 
-Right click Developer mode to see the console results.
+Click this link to see the deployed link:
+https://sumzulfikar.github.io/Console-Finances/ 
+
+Right click and select Inspect. In the Developer mode select Console to see the results.
 
 ![Application Screen Shot](./images/financeconsole.png)
 Console results:
@@ -61,4 +63,4 @@ MIT License
 
 ## Tests
 
-Acceptance Criteria met and comparing the expected results from starter Read me for the challenge.
+Acceptance Criteria met and comparing the expected results from starter Readme for the challenge.
