@@ -23,7 +23,7 @@ Learning:
 
 ## Installation
 
-Click this link to see the deployed link : 
+Click this link to see the deployed link: https://sumzulfikar.github.io/Console-Finances/ 
 Right click Developer mode to see the console results.
 
 ![alt text](./images/bootstrap-ss.PNG)
