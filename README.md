@@ -1,5 +1,4 @@
 # Console-Finances
-To analyze the financial records of a company.
 
 ## Project Objective
 
@@ -10,6 +9,8 @@ To analyze the financial records of a company.
 
 
 Learning:
+
+- For each requirement writing the pseudocode in the comments was really helpful to think about what functions I needed to write in the code to enable the feature to function as per expectation.
 
 - There are so many functions avilable in javascript and there is so much to learn! Learning to being efficient with which method or function to use to execte the code was a challenge. I have really enjoyed it.
 
@@ -23,13 +24,15 @@ Learning:
 ## Installation
 
 Click this link to see the deployed link : 
-Right click Developer mode to see the console.
+Right click Developer mode to see the console results.
 
 ![alt text](./images/bootstrap-ss.PNG)
 
 ## Credits
 
-Bootcamp Xpert was super helpful for this and googling varios javascript youtube videos.
+Bootcamp Xpert and W3C was super helpful for this project.
+I am grateful for thehelp and support I received from from my TAs, and class mates.
+I googled various javascript youtube videos during this project.
 
 
 ## License
@@ -44,7 +47,8 @@ MIT License
 ## Features
 
 In the console you will be able to see the following:
- 1. The total number of months included in the dataset.
+
+1. The total number of months included in the dataset.
 
 2. The net total amount of Profit/Losses over the entire period.
 
