@@ -135,7 +135,7 @@ var finances = [
   
   var averageDifference=totalDifference/(income.length - 1);//Now I have average difference
     
-  averageDifference=averageDifference.toFixed(2);// I am reducing decimals to 2 deciman place
+  averageDifference=averageDifference.toFixed(2);// I am reducing the decimals to 2 decimal places
   console.log("\n Average change over the period: $"+ averageDifference);
 
   console.log("The greatest increase in Profit/Losses was in the period was on " + month[monthIndexMax] 
